@@ -13,7 +13,7 @@ class GreetingController {
     RequestMapping("/hello")
     fun hello(RequestParam(defaultValue = "World") name: String): Greeting {
         val id = idGenerator.incrementAndGet()
-        return Greeting(id, "Hello, $name")
+        return Greeting(id, "$name, from Kotlin!")
     }
 
 }

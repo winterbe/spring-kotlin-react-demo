@@ -2,17 +2,18 @@
   "name": "spring-kotlin-react-demo",
   "version": "1.0.0",
   "description": "Spring Kotlin React Demo",
-  "main": "src/js/app.js",
+  "main": "src/main/js/app.js",
   "author": "Benjamin Winterberg",
   "license": "MIT",
   "homepage": "http://winterbe.com",
   "repository": {
     "type": "git",
-    "url": "git://github.com/winterbe/react-samples.git"
+    "url": "https://github.com/winterbe/spring-kotlin-react-demo"
   },
   "dependencies": {
     "babel-core": "^5.8.22",
     "babel-loader": "^5.3.2",
+    "jquery": "^2.1.4",
     "react": "^0.13.3",
     "webpack": "^1.11.0"
   }
