@@ -11,7 +11,7 @@ class GreetingController {
     val idGenerator = AtomicLong()
 
     RequestMapping("/hello")
-    fun hello(RequestParam(defaultValue = "World") name: String): Greeting {
+    fun hello(name: String): Greeting {
         val id = idGenerator.incrementAndGet()
         return Greeting(id, "$name, from Kotlin!")
     }
