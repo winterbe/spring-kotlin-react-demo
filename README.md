@@ -5,11 +5,16 @@ Demo web application using Spring Boot, Kotlin and React.js. This project depend
 
 ### Getting started
 
-You need Java 1.8, Maven 3, NPM and Webpack pre-installed. Fork or clone this repository, then:
+You need [Java 8](https://www.oracle.com/java/), [Maven 3](https://maven.apache.org/
+), [NPM](https://www.npmjs.com/) and [Webpack](https://webpack.github.io/) pre-installed. Fork or clone this repository, then execute: `npm run all`
 
-- Install: `npm install`
-- Build: `webpack`
-- Start: `mvn spring-boot:run`
+### Development
+
+Use the following commands for development:
+
+- Build: `npm run build`
+- Start: `npm run serve`
+- All: `npm run all`
 
 > Use `webpack --watch` to automatically rebuild JavaScript files on the fly.
 

@@ -19,7 +19,7 @@
 	</parent>
 
 	<properties>
-        <kotlin.version>0.12.1230</kotlin.version>
+        <kotlin.version>0.13.1514</kotlin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
 	</properties>
