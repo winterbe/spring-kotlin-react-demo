@@ -11,10 +11,8 @@ module.exports = {
     },
     module: {
         loaders: [
-            {
-                test: path.join(__dirname, 'src/main/js'),
-                loader: 'babel-loader'
-            }
+            {test: path.join(__dirname, 'src/main/js'), loader: 'babel-loader'},
+            {test: path.join(__dirname, 'src/main/js'), loader: 'eslint-loader'}
         ]
     }
 };

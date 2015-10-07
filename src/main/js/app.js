@@ -1,15 +1,16 @@
 const React = require("react");
 const $ = require("jquery");
 
+/* eslint no-unused-vars: 0 */
 const App = React.createClass({
     render() {
         return (
             <h1>Hello {this.state.name}</h1>
-        )
+        );
     },
 
     getInitialState() {
-        return {name: "World"}
+        return {name: "World"};
     },
 
     componentDidMount() {
