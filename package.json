@@ -11,9 +11,9 @@
     "url": "https://github.com/winterbe/spring-kotlin-react-demo"
   },
   "scripts": {
-    "build": "mvn -q compile && npm install && webpack",
-    "serve": "mvn -q spring-boot:run",
-    "all": "npm install && webpack && mvn -q spring-boot:run"
+    "build": "mvn -q clean compile && npm install && webpack",
+    "serve": "mvn -q clean spring-boot:run",
+    "all": "npm install && webpack && mvn -q clean spring-boot:run"
   },
   "dependencies": {
     "babel-core": "^5.8.22",
