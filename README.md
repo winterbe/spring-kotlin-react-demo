@@ -3,6 +3,8 @@ Spring Boot, Kotlin, React.js Example
 
 Demo web application using Spring Boot, Kotlin and React.js. This project depends on Maven, NPM and Webpack for development. Frontend code is written in JavaScript (ES6) and Reacts JSX syntax.
 
+> You should [follow me on Twitter](https://twitter.com/winterbe_) for updates.
+
 ### Getting started
 
 You need [Java 8](https://www.oracle.com/java/), [Maven 3](https://maven.apache.org/
